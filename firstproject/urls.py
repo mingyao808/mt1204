@@ -19,6 +19,7 @@ from myapp.views import sayhello,hello
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', sayhello),
     url(r'^$', hello),
   
 ]
